@@ -4,7 +4,12 @@ import java.util.Scanner;
 
 public class Customer {
 
-    Acc
+    int account_id;
+    String first_name;
+    String last_name;
+    ArrayList<Account> customer_accounts;
+    Date date_registered;
+
 
 
 
@@ -12,8 +17,10 @@ public class Customer {
 
     }
 
-    public void displayAccounts(){
-
+    public void display_accounts(){
+    for (Account account : customer_accounts){
+        System.out.println(account);
+    }
 
 
 
