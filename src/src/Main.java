@@ -1,6 +1,4 @@
-import java.util.HashMap;
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Main {
 
@@ -20,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        new Bank();
+        new bank();
     }
 }
 

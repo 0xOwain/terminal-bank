@@ -1,5 +1,3 @@
-import java.util.HashMap
-
 public class Account {
 
     int account_id;
@@ -7,9 +5,17 @@ public class Account {
 
 
 
-    public Account{
-        this.balance = 0;
+     public Account(){
+         /**
+          * Account creates a new blank account for a customer and appends it to their accounts.
+          */
+        balance = 0;
+
+
 
 
     }
 }
+
+
+

@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Scanner;
 
-public class Customer {
+public class customer {
 
     int account_id;
     String first_name;
@@ -11,9 +10,7 @@ public class Customer {
     Date date_registered;
 
 
-
-
-    public Customer(String name, int balance) {
+    public customer(String name, int balance) {
 
     }
 
