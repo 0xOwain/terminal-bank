@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e87f5a6-ee88-4ca4-9831-c3a397aab6ed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Programs\Java\terminal-bank\src" />
+      <recent name="F:\Programs\Java\terminal-bank" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768426906057</updated>
       <workItem from="1768426907585" duration="83000" />
-      <workItem from="1775163435452" duration="370000" />
+      <workItem from="1775163435452" duration="2312000" />
     </task>
     <servers />
   </component>
