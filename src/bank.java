@@ -42,4 +42,17 @@ public class bank {
     public showCustomers(){
         return customers;
     }
+
+    public lastAccount() {
+
+    }
+
+
+    public newCustomer(){
+
+    }
+
+    public newAccount(Customer customer){
+
+    }
 }
