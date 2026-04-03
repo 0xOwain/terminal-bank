@@ -1,2 +1,3 @@
 # terminal-bank
-this is a pretend banking terminal to practice learnt knowledge.
+practice
+incomplete 3/4/2026
