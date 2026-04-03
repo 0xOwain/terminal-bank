@@ -5,15 +5,18 @@ public class Account {
 
 
 
-     public Account(){
+     public Account(Customer customer){
          /**
           * Account creates a new blank account for a customer and appends it to their accounts.
           */
         balance = 0;
         // get last account id
-        current_accounts = bank.showAccounts();
+        current_accounts = customer.showAccounts();
         if (accounts.size() == 0){
             account_id = 1
+        }
+        else {
+            for ()
         }
         account_id =
 

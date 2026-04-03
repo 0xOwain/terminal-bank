@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 import java.util.Date;
 
-public class customer {
+public class Customer {
 
-    int account_id;
+    int customer_id;
     String first_name;
     String last_name;
-    ArrayList<Account> customer_accounts;
+    ArrayList<Account> accounts;
     Date date_registered;
 
 
-    public customer(String name, int balance) {
+    public customer(String first_name, String last_name, int) {
 
     }
 
@@ -18,6 +18,15 @@ public class customer {
     for (Account account : customer_accounts){
         System.out.println(account);
     }
+
+
+    public showAccounts(){
+        return accounts;
+        }
+
+    public newAccount(){
+
+        }
 
 
 
