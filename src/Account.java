@@ -4,9 +4,9 @@ public class Account {
     int balance;
 
 
-    public Account(Customer customer) {
+    public Account(int account_id) {
         /**
-         * Account creates a new blank account for a customer and appends it to their accounts.
+         * Creates a new blank account
          */
 
         balance = 0;
@@ -21,7 +21,11 @@ public class Account {
 
     }
 
-    protected addBalance(balance)
+    public Account()
+
+    public addBalance(balance){
+
+    }
 }
 
 
