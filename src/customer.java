@@ -3,21 +3,39 @@ import java.util.Date;
 
 public class Customer {
 
-    int customer_id;
-    String first_name;
-    String last_name;
-    ArrayList<Account> accounts;
-    Date date_registered;
+    int customerId;
+    String firstName;
+    String lastName;
+    String postcode;
+    TreeSet<Accounts> accounts;
+    Date dateRegistered;
 
-
-    public customer(String first_name, String last_name, int) {
+    /**
+     * Creates a new blank customer object
+     *
+     */
+    public Customer() {
+        this.firstName = "John"
+        this.lastName = "Doe";
+        this.postcode = "Null";
+        this.dateRegistered = new Date();
+        TreeSet<Accounts> accounts = new TreeSet<Accounts>();
 
     }
 
-    public void display_accounts(){
-    for (Account account : customer_accounts){
-        System.out.println(account);
+    /**
+     * Creates a customer with a given first name, last name and a postcode
+     *
+     */
+    public Customer(String firstName, String lastName, String postcode) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.postcode = postcode;
+        this.dateRegistered = new Date();
+        TreeSet<Accounts> accounts = new TreeSet<Accounts>();
+
     }
+
 
 
     public showAccounts(){
