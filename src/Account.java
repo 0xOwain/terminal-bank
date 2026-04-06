@@ -4,7 +4,7 @@ public class Account {
     int balance;
 
 
-    public Account(int account_id) {
+    public Account(Customer customer) {
         /**
          * Creates a new blank account
          */
@@ -15,13 +15,15 @@ public class Account {
         if (accounts.size() == 0) {
             account_id = 1
         } else {
-            for ()
+            accounts = customer.getAccounts();
+            lastId = accounts.
         }
-        account_id =
+
+
 
     }
 
-    public Account()
+
 
     public addBalance(balance){
 
