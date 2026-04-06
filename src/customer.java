@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * Customer class is vital for storing accounts.
+ */
 public class Customer {
 
     int customerId;
@@ -11,7 +14,8 @@ public class Customer {
     Date dateRegistered;
 
     /**
-     * Creates a new blank customer object
+     * Creates a new blank customer
+     *
      *
      */
     public Customer() {
@@ -25,6 +29,8 @@ public class Customer {
 
     /**
      * Creates a customer with a given first name, last name and a postcode
+     * If any parameters are unknown - type N/A - they can be changed later
+     *
      *
      */
     public Customer(String firstName, String lastName, String postcode) {
@@ -33,23 +39,16 @@ public class Customer {
         this.postcode = postcode;
         this.dateRegistered = new Date();
         TreeSet<Accounts> accounts = new TreeSet<Accounts>();
-
     }
 
 
 
-    public showAccounts(){
+    public getAccounts() {
         return accounts;
-        }
-
-    public newAccount(){
-
-        }
+    }
 
 
-
-
-
+    public removeAccount() {
 
     }
 }

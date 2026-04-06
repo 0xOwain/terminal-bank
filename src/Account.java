@@ -6,7 +6,7 @@ public class Account {
 
     public Account(Customer customer) {
         /**
-         * Account creates a new blank account for a customer and appends it to their accounts.
+         * Creates a new blank account
          */
 
         balance = 0;
@@ -15,13 +15,19 @@ public class Account {
         if (accounts.size() == 0) {
             account_id = 1
         } else {
-            for ()
+            accounts = customer.getAccounts();
+            lastId = accounts.
         }
-        account_id =
+
+
 
     }
 
-    protected addBalance(balance)
+
+
+    public addBalance(balance){
+
+    }
 }
 
 

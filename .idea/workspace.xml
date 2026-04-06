@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e87f5a6-ee88-4ca4-9831-c3a397aab6ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;wip-development&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/Programs/Java/terminal-bank&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -61,7 +59,8 @@
       <workItem from="1768426907585" duration="83000" />
       <workItem from="1775163435452" duration="2811000" />
       <workItem from="1775243920536" duration="4857000" />
-      <workItem from="1775421008000" duration="696000" />
+      <workItem from="1775421008000" duration="2840000" />
+      <workItem from="1775503684436" duration="4369000" />
     </task>
     <servers />
   </component>
