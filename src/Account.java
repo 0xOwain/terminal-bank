@@ -1,3 +1,5 @@
+import bank;
+
 public class Account {
 
     int account_id;
@@ -16,15 +18,20 @@ public class Account {
             account_id = 1
         } else {
             accounts = customer.getAccounts();
-            lastId = account
+            lastId = ;
         }
 
 
 
     }
 
+    /**
+     * returns a new id that can be used for a new account
+     */
 
-
+    private getID(){
+        return account_id;
+    }
     public addBalance(balance){
 
     }
