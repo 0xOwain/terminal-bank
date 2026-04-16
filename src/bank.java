@@ -6,7 +6,7 @@ import java.util.TreeMap;
 public class bank {
 
     HashSet<Customer> customers = new HashSet<Customer>();
-
+    TreeSet<Account> accounts = new TreeSet<Account>();
 
     /**
      * Creates a bank object and stores customers and accounts within it.
@@ -26,11 +26,8 @@ public class bank {
         System.out.println("1. View all Customers");
         System.out.println("2. View a customer's details");
         System.out.println("3. New Transaction");
-
-
-
-        //Scanner userInput = new Scanner(System.in);
-        //System.out.println("Enter a First name and Last Name: ");
+        System.out.println9("4. New Customer");
+        Scanner userInput = new Scanner(System.in);
        //String name = userInput.nextLine();
     }
 

@@ -7,23 +7,22 @@ import java.util.Date;
 public class Customer {
 
     int customerId;
-    String firstName;
-    String lastName;
-    String postcode;
-    TreeSet<Accounts> accounts;
-    Date dateRegistered;
+    String firstName; // customer first name
+    String lastName; // customer last name
+    String postcode; // customer postcode
+    Date dateCreated; // date customer was created
 
     /**
-     * Creates a new blank customer
+     * Creates a new blank customer with default values
      *
      *
      */
     public Customer() {
+        this.customerId =
         this.firstName = "John"
         this.lastName = "Doe";
         this.postcode = "Null";
-        this.dateRegistered = new Date();
-        TreeSet<Accounts> accounts = new TreeSet<Accounts>();
+        this.dateCreated = new Date();
 
     }
 
@@ -38,7 +37,7 @@ public class Customer {
         this.lastName = lastName;
         this.postcode = postcode;
         this.dateRegistered = new Date();
-        TreeSet<Accounts> accounts = new TreeSet<Accounts>();
+
     }
 
 
