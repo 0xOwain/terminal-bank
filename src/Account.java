@@ -16,7 +16,7 @@ public class Account {
             account_id = 1
         } else {
             accounts = customer.getAccounts();
-            lastId = accounts.
+            lastId = account
         }
 
 

@@ -2,11 +2,12 @@ import java.util.HashSet;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeMap;
+import java.io
 
 public class bank {
 
     HashSet<Customer> customers = new HashSet<Customer>();
-
+    TreeSet<Account> accounts = new TreeSet<Account>();
 
     /**
      * Creates a bank object and stores customers and accounts within it.
@@ -22,21 +23,39 @@ public class bank {
         //customers hold accounts.
         HashSet<Customer> customers = new HashSet<customer>();
         HashSet<Account> accounts = new HashSet<Account>();
-        System.out.println("Enter a number according to the options below:");
-        System.out.println("1. View all Customers");
-        System.out.println("2. View a customer's details");
-        System.out.println("3. New Transaction");
 
+        Scanner sc = new Scanner(System.in); //get user choice
+        System.out.println("Enter an option in accordance with the number:");
+        System.out.println("1. View all Customers\n" +
+                "2. View Customer /n" +
+                        "3. View Recent Transactions");
+        String userInput = sc.nextLine();
+        if (userInput.equals("1")){
 
+        }
+        else if (userInput.equals("2")){
 
-        //Scanner userInput = new Scanner(System.in);
-        //System.out.println("Enter a First name and Last Name: ");
-       //String name = userInput.nextLine();
+        }
+        else if (userInput.equals("3")){
+
+        }
+        else if (userInput.equals("4")){
+
+        }
+        else{
+            throw new IllegalArgumentException("Invalid option.")
+        }
+
     }
 
 
     public showAccounts(){
-        return accounts;
+        if (accounts.size() == 0){
+            throw new 
+        }
+        for (Account account : accounts){
+            system.out.println()
+        }
     }
 
     public showCustomers(){
