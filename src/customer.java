@@ -11,6 +11,8 @@ public class Customer {
     String lastName; // customer last name
     String postcode; // customer postcode
     Date dateCreated; // date customer was created
+    TreeSet<Account> accounts;
+
 
     /**
      * Creates a new blank customer with default values
@@ -23,7 +25,7 @@ public class Customer {
         this.lastName = "Doe";
         this.postcode = "Null";
         this.dateCreated = new Date();
-
+        this.accounts = new TreeSet<>();
     }
 
     /**
@@ -42,12 +44,18 @@ public class Customer {
 
 
 
-    public getAccounts() {
+    public void getAccounts() {
         return accounts;
     }
 
 
-    public removeAccount() {
+    public void removeAccount() {
 
     }
+
+    public void addAccount(Account account){
+        accounts.add(account);
+    }
+
+    public void get
 }

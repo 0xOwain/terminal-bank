@@ -7,7 +7,7 @@ import java.io
 public class bank {
 
     HashSet<Customer> customers = new HashSet<Customer>();
-    TreeSet<Account> accounts = new TreeSet<Account>();
+
 
     /**
      * Creates a bank object and stores customers and accounts within it.
@@ -82,7 +82,7 @@ public class bank {
 
 
     private.getID(Account custAccount){
-        account.
+        return custAccount.
 
     }
 

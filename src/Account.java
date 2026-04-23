@@ -2,7 +2,7 @@ import bank;
 
 public class Account {
 
-    int account_id;
+    int account_id = 1;
     int balance;
 
 
@@ -12,14 +12,7 @@ public class Account {
          */
 
         balance = 0;
-        // get last account id
-        current_accounts = customer.showAccounts();
-        if (accounts.size() == 0) {
-            account_id = 1
-        } else {
-            accounts = customer.getAccounts();
-            lastId = ;
-        }
+        account_id += 1;
 
 
 
