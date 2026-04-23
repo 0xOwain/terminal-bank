@@ -7,7 +7,7 @@ import java.io
 public class bank {
 
     HashSet<Customer> customers = new HashSet<Customer>();
-    TreeSet<Account> accounts = new TreeSet<Account>();
+
 
     /**
      * Creates a bank object and stores customers and accounts within it.
@@ -49,29 +49,48 @@ public class bank {
     }
 
 
-    public showAccounts(){
+
+
+    private showAccounts(){
         if (accounts.size() == 0){
-            throw new 
+            return System.out.println("Accounts is empty");
         }
-        for (Account account : accounts){
-            system.out.println()
+        else {
+            for (Account account : accounts){
+                System.out.println(account);
+            }
         }
     }
 
-    public showCustomers(){
-        return customers;
-    }
-
-    public lastAccount() {
-
-    }
-
-
-    public newCustomer(){
+    private showCustomers(){
+        if (customers.size() == 0){
+            return System.out.println("Customers is empty");
+        }
 
     }
 
-    public newAccount(Customer customer){
+    private showCustomerAccounts(){
+
+    }
+
+    private lastAccount() {
+        if (customers.size() == 0){
+            return System.out.println("Customers is empty");
+        }
+        return accounts.last();
+    }
+
+
+    private.getID(Account custAccount){
+        return custAccount.
+
+    }
+
+    private newCustomer(){
+
+    }
+
+    private newAccount(Customer customer){
 
     }
 }
